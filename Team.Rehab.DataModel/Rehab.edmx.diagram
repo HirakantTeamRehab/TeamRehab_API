@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5b11083983494a89840fcab3ee7fe6ce" Name="Diagram1">
+        <EntityTypeShape EntityType="Team_RehabModel.tblMenu" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblPatNote" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblUser" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblUserGroup" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblUserMenu" Width="1.5" PointX="6.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblDocMaster" Width="1.5" PointX="9.375" PointY="0.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblTherapist" Width="1.5" PointX="9.375" PointY="8.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblBlockedIP" Width="1.5" PointX="5.375" PointY="9.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblClient" Width="1.5" PointX="0.75" PointY="11.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblAppUser" Width="1.5" PointX="11.375" PointY="8.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblDevice" Width="1.5" PointX="11.375" PointY="0.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblOTP" Width="1.5" PointX="3.375" PointY="12.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblAppNotification" Width="1.5" PointX="13.625" PointY="4.25" />
+        <AssociationConnector Association="Team_RehabModel.FK_tblAppNotifications_tblDocMaster" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblAppError" Width="1.5" PointX="11.375" PointY="12.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblHintsNote" Width="1.5" PointX="13.375" PointY="0.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tbldFuncChar" Width="1.5" PointX="13.375" PointY="8.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblClinics" Width="1.5" PointX="0.75" PointY="14.875" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblAppAdmins" Width="1.5" PointX="13.375" PointY="12.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblSchedules" Width="1.5" PointX="7.375" PointY="14.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblErrorCodes" Width="1.5" PointX="15.375" PointY="8.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblPatients" Width="1.5" PointX="3" PointY="15.75" />
+        <AssociationConnector Association="Team_RehabModel.FK_tblAppNotifications_tblPatients" />
+        <AssociationConnector Association="Team_RehabModel.FK_ztblAppNotifications_tblPatients" />
+        <AssociationConnector Association="Team_RehabModel.FK_tblPatients_tblClinicss" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblDirectTrustPatient" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblRefreshTokens" Width="1.5" PointX="9.375" PointY="15.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblReferrerSign" Width="1.5" PointX="11.375" PointY="15.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblDirectTrustPatientLog" Width="1.5" PointX="18.375" PointY="10.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tbl_DT_Referrers" Width="1.5" PointX="16.375" PointY="16.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tbl_DT_Referrer_Emails" Width="1.5" PointX="13.375" PointY="16.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tbl_DT_ClinicUserMapping" Width="1.5" PointX="15.375" PointY="0.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tbl_DT_PatientReferralMRN" Width="1.5" PointX="17.375" PointY="7.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tbl_DT_Outgoing_Message" Width="1.5" PointX="15.375" PointY="12.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblDocMasterAddl" Width="1.5" PointX="19.375" PointY="7.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tbl_DT_POC_Processed" Width="1.5" PointX="15.375" PointY="19.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tbl_DT_POC_NotFound" Width="1.5" PointX="19.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblPatScannedDocs" Width="1.5" PointX="0.75" PointY="8.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tbl_DT_Incoming_Message_Individual_Attachments" Width="1.5" PointX="18.375" PointY="14.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tbl_DT_MessagesSent" Width="1.5" PointX="9.375" PointY="20.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tbl_DT_PatientReferral_Processed" Width="1.5" PointX="18.375" PointY="17.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tbl_DT_Incoming_Message" Width="1.5" PointX="16.375" PointY="3.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblRefAddr" Width="1.5" PointX="5.375" PointY="20.75" />
+        <EntityTypeShape EntityType="Team_RehabModel.tblReferrer" Width="1.5" PointX="20.375" PointY="10.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
